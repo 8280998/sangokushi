@@ -29,10 +29,15 @@ autoyellow.sh:黄巾活动循环脚本。
 安装环境命令
 
 sudo apt update
+
 sudo apt install -y libnss3 libatk-bridge2.0-0 libcups2 libxcomposite1 libxrandr2 libxdamage1 libgbm-dev libxshmfence-dev fonts-liberation
+
 sudo apt-get install python3-pip
+
 pip install playwright
+
 playwright install
+
 playwright install-deps
 
 2.运行各个模块
@@ -43,9 +48,9 @@ nohup ./auto.sh > auto.log 2>&1 &
 为确保每个帐号都不错过每日奖励，bonus会运行二次。然后重新运行quest.py
 50个登录帐号每天循环一次bonus.py，大约为1310分钟。
 
-使用tail -f run.log查看quest日志
+使用tail -f run.log查看quest运行时日志
 
-使用tail -f bonus.log查看bonus日志
+使用tail -f bonus.log查看bonus运行时日志
 
 ______________________________________________________________
 nohup ./autoyellow.sh > autoyellow.log 2>&1 &
@@ -62,8 +67,8 @@ python3 point.py
 单独运行黄巾活动
 python3 yellow.py
 
-单独运行quest
+单独运行quest讨伐模块
 python3 quest.py
 
-单独运行bonus
+单独运行bonus每日奖励领取模块
 python3 bonus.py
