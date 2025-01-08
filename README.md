@@ -14,7 +14,7 @@ claim.py：自动领取黄巾活动奖励
 
 point.py：查询每个帐号的BP积分
 
-auto.sh: 自动处理每天的bonus领取奖励和quest讨伐
+auto.sh: 自动处理每天的bonus领取奖励和quest讨伐循环脚本
 
 autoyellow.sh:黄巾活动循环脚本。
 
