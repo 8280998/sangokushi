@@ -1,12 +1,20 @@
 # sangokushi
 三国志自动模拟脚本介绍
+
 读取user.txt的用户和密码后，自动登录网站根据以下模块处理不同任务
+
 quest.py:自动讨伐据点
+
 bonus.py:自动领取每日奖励
+
 yellow.py：自动打黄巾活动
+
 claim.py：自动领取黄巾活动奖励
+
 point.py：查询每个帐号的BP积分
+
 auto.sh: 自动处理每天的bonus领取奖励和quest讨伐
+
 autoyellow.sh:黄巾活动循环脚本。
 
 各个功能模块是在chatgpt的帮助下完成。
