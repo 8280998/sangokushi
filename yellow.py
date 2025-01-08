@@ -338,7 +338,7 @@ def read_users_from_file(file_path):
     return users
 
 if __name__ == "__main__":
-    users = read_users_from_file("user6.txt")
+    users = read_users_from_file("user.txt")
     if not users:
         logging.error("没有找到有效的用户信息，脚本终止。")
     else:
