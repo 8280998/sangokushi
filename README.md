@@ -41,6 +41,9 @@ playwright install
 playwright install-deps
 
 2.运行各个模块
+
+在运行前，需要先把用户名密码复制到user.txt中，一行一个用户。
+用户名和密码使用｜隔开。
 ______________________________________________________________
 nohup ./auto.sh > auto.log 2>&1 &
 
