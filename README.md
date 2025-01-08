@@ -55,6 +55,7 @@ nohup ./auto.sh > auto.log 2>&1 &
 
 ______________________________________________________________
 nohup ./autoyellow.sh > autoyellow.log 2>&1 &
+
 在后台运行yellow.py，所有用户处理完成后，等待10分钟再次循环打活动。
 sleep 10m可以自定义循环时间
 
