@@ -29,14 +29,10 @@ autoyellow.sh:黄巾活动循环脚本。
 安装环境命令
 
 sudo apt update
-
 sudo apt install -y libnss3 libatk-bridge2.0-0 libcups2 libxcomposite1 libxrandr2 libxdamage1 libgbm-dev libxshmfence-dev fonts-liberation
 sudo apt-get install python3-pip
-
 pip install playwright
-
 playwright install
-
 playwright install-deps
 
 2.运行各个模块
