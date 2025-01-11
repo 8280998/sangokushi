@@ -270,7 +270,7 @@ def process_select_warlords(page):
                             result = handle_55bbffa3_sequence(page)
 
                             if not result:
-                                logging.info("55bbffa3序列提前结束，尝试继续下一个Warlords按钮")
+                                logging.info("翻牌序列提前结束，尝试继续下一个Warlords按钮")
                                 time.sleep(3)
                                 process_select_warlords(page)
                                 break
@@ -287,8 +287,8 @@ def process_select_warlords(page):
             logging.info("本轮没有找到可点击的Warlords，进入GOOD模块")
             return
 def daily_bonus_task(page):
-    logging.info("打开活动页面")
-    page.goto("https://quest.kai-sangokushi-taisen.games/en/raid")
+    logging.info("打开活动页面,更新到张角界面")
+    page.goto("https://quest.kai-sangokushi-taisen.games/en/raid?id=7")
     time.sleep(5)
     handle_popup_ok(page)
     click_4th_55bbffa3_button(page, max_retries=8)
