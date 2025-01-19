@@ -32,7 +32,7 @@ error_handler.setFormatter(logging.Formatter("%(asctime)s - %(message)s"))
 error_logger.addHandler(error_handler)
 
 LOGIN_URL = "https://quest.kai-sangokushi-taisen.games/en/login"
-TARGET_ICON_KEYWORD = "quest-target-kokinzoku.af40ba0c.png&w=3840&q=75"
+TARGET_ICON_KEYWORD = "quest-target-kokinzoku.cb1e0015.png&w=3840&q=75"
 
 def process_user(username, password):
     start_time = datetime.now()  # 开始计时
